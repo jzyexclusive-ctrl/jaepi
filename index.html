@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JACSICOE – Jayaraj Annapackiam CSI College of Engineering</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <div class="nav-logo-emblem">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M12 2L2 7v5c0 5.25 4.35 10.2 9 11.25C16.65 22.2 21 17.25 21 12V7L12 2z"
+                fill="rgba(201,168,76,0.3)" stroke="#c9a84c" stroke-width="1.5"/>
+          <path d="M9 12l2 2 4-4" stroke="#c9a84c" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="nav-logo-text">
+        <span class="acronym">JACSICOE</span>
+        <span class="tagline-short">Est. Engineering Excellence</span>
+      </div>
+    </div>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#departments">Departments</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#location">Location</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="btn-theme" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      <a href="#contact" class="btn-nav-cta">Admissions</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Nav Overlay -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about"        onclick="closeMobileNav()">About</a>
+  <a href="#departments"  onclick="closeMobileNav()">Departments</a>
+  <a href="#facilities"   onclick="closeMobileNav()">Facilities</a>
+  <a href="#testimonials" onclick="closeMobileNav()">Reviews</a>
+  <a href="#gallery"      onclick="closeMobileNav()">Gallery</a>
+  <a href="#location"     onclick="closeMobileNav()">Location</a>
+  <a href="#contact"      onclick="closeMobileNav()">Contact</a>
+</div>
+
+
+<!-- ============================================================
+     HERO SECTION
+     ============================================================ -->
+<section id="hero">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">Anna University Affiliated · AICTE Approved</div>
+
+    <h1 class="hero-title">
+      Jayaraj Annapackiam<br>
+      CSI College of <span class="gold">Engineering</span>
+    </h1>
+
+    <p class="hero-title-tamil">
+      ஜெயராஜ் அன்னபாக்கியம் சி.எஸ்.ஐ. கல்லூரி ஆப் என்ஜினீயரிங்
+    </p>
+
+    <div class="hero-divider"></div>
+
+    <p class="hero-tagline">
+      "Shaping Future Engineers with Knowledge, Discipline, and Innovation."
+    </p>
+
+    <div class="hero-cta">
+      <a href="#about"    class="btn-primary">Explore Campus</a>
+      <a href="#contact"  class="btn-secondary">Apply for Admissions</a>
+      <a href="#location" class="btn-secondary">Contact Us</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="hero-stat"><span class="num">4+</span><span class="lbl">Departments</span></div>
+      <div class="hero-stat"><span class="num">2000+</span><span class="lbl">Students</span></div>
+      <div class="hero-stat"><span class="num">150+</span><span class="lbl">Faculty</span></div>
+      <div class="hero-stat"><span class="num">3.9&#9733;</span><span class="lbl">Rating</span></div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     ABOUT SECTION
+     ============================================================ -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+
+      <div class="about-visual reveal-left">
+        <div class="about-img-frame">
+          <div class="about-img-inner">
+            <div class="about-crest">
+              <span class="about-crest-text">JAC</span>
+            </div>
+            <span class="about-established">Margoschis Nagar, Nazareth</span>
+          </div>
+          <div class="about-img-label">
+            <div class="lbl">Established</div>
+            <div class="val">JACSICOE</div>
+          </div>
+        </div>
+        <div class="about-corner-accent"></div>
+        <div class="about-corner-accent-br"></div>
+      </div>
+
+      <div class="about-text reveal-right">
+        <div class="section-label">About the Institution</div>
+        <h2 class="section-title">A Legacy of Engineering Excellence</h2>
+
+        <p>Jayaraj Annapackiam CSI College of Engineering (JACSICOE) stands as a beacon of
+           technical education in Southern Tamil Nadu. Located in the serene Margoschis Nagar,
+           Nazareth, the institution is affiliated with Anna University and approved by AICTE.</p>
+
+        <p>Our mission is to nurture students into highly competent engineers who contribute
+           meaningfully to society through innovation, research, and ethical practice. With
+           state-of-the-art infrastructure and experienced faculty, we provide an environment
+           where academic excellence thrives.</p>
+
+        <div class="about-features">
+          <div class="about-feature delay-1">
+            <div class="about-feature-icon">🏛️</div>
+            <div class="about-feature-text">Anna University Affiliated
+              <span>Recognized &amp; Accredited</span>
+            </div>
+          </div>
+          <div class="about-feature delay-2">
+            <div class="about-feature-icon">⚙️</div>
+            <div class="about-feature-text">AICTE Approved<span>Quality Assurance</span></div>
+          </div>
+          <div class="about-feature delay-3">
+            <div class="about-feature-icon">🎓</div>
+            <div class="about-feature-text">Expert Faculty<span>Experienced Educators</span></div>
+          </div>
+          <div class="about-feature delay-4">
+            <div class="about-feature-icon">🔬</div>
+            <div class="about-feature-text">Modern Labs<span>Research Facilities</span></div>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn-primary" style="display:inline-block;margin-top:1rem;">
+          Apply for Admissions &rarr;
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     COUNTERS SECTION
+     ============================================================ -->
+<section id="counters">
+  <div class="section-inner">
+    <div class="counters-grid">
+
+      <div class="counter-card reveal delay-1">
+        <div class="counter-icon">🏫</div>
+        <span class="counter-num" data-target="4">0</span>
+        <span class="counter-label">Departments</span>
+      </div>
+
+      <div class="counter-card reveal delay-2">
+        <div class="counter-icon">🎓</div>
+        <span class="counter-num" data-target="2000" data-suffix="+">0</span>
+        <span class="counter-label">Students Enrolled</span>
+      </div>
+
+      <div class="counter-card reveal delay-3">
+        <div class="counter-icon">👨‍🏫</div>
+        <span class="counter-num" data-target="150" data-suffix="+">0</span>
+        <span class="counter-label">Faculty Members</span>
+      </div>
+
+      <div class="counter-card reveal delay-4">
+        <div class="counter-icon">🏗️</div>
+        <span class="counter-num" data-target="20" data-suffix="+">0</span>
+        <span class="counter-label">Campus Facilities</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     DEPARTMENTS SECTION
+     ============================================================ -->
+<section id="departments">
+  <div class="section-inner">
+
+    <div class="section-header reveal">
+      <div class="section-label">Academic Programs</div>
+      <h2 class="section-title">Departments of Excellence</h2>
+      <p class="section-subtitle">
+        Our engineering departments are designed to equip students with cutting-edge knowledge,
+        practical skills, and the innovative mindset required by today's industries.
+      </p>
+    </div>
+
+    <div class="dept-grid">
+
+      <div class="dept-card reveal delay-1">
+        <div class="dept-icon-wrap dept-cse">💻</div>
+        <div class="dept-abbr">CSE</div>
+        <div class="dept-name">Computer Science Engineering</div>
+        <p class="dept-desc">Master the art of software development, algorithms, data structures,
+           and emerging technologies. Our CSE program prepares students for careers in software
+           engineering, cloud computing, and cybersecurity with an industry-aligned curriculum.</p>
+        <div class="dept-link">Explore Department <span>&rarr;</span></div>
+      </div>
+
+      <div class="dept-card reveal delay-2">
+        <div class="dept-icon-wrap dept-mech">⚙️</div>
+        <div class="dept-abbr">MECH</div>
+        <div class="dept-name">Mechanical Engineering</div>
+        <p class="dept-desc">Dive into the world of machines, thermodynamics, manufacturing, and
+           design. Our program blends classical engineering principles with modern CAD/CAM tools,
+           robotics, and sustainable manufacturing practices.</p>
+        <div class="dept-link">Explore Department <span>&rarr;</span></div>
+      </div>
+
+      <div class="dept-card reveal delay-3">
+        <div class="dept-icon-wrap dept-ece">📡</div>
+        <div class="dept-abbr">ECE</div>
+        <div class="dept-name">Electronics &amp; Communication Engineering</div>
+        <p class="dept-desc">Explore electronic systems, signal processing, wireless
+           communications, and VLSI design. ECE graduates are at the forefront of the
+           telecommunications, semiconductor, and embedded systems industries.</p>
+        <div class="dept-link">Explore Department <span>&rarr;</span></div>
+      </div>
+
+      <div class="dept-card reveal delay-4">
+        <div class="dept-icon-wrap dept-aids">🤖</div>
+        <div class="dept-abbr">AI&amp;DS</div>
+        <div class="dept-name">Artificial Intelligence &amp; Data Science</div>
+        <p class="dept-desc">Step into the future with our cutting-edge AI &amp; Data Science
+           program. Learn machine learning, deep learning, big data analytics, and intelligent
+           systems design to build next-generation AI-powered solutions.</p>
+        <div class="dept-link">Explore Department <span>&rarr;</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     FACILITIES SECTION
+     ============================================================ -->
+<section id="facilities">
+  <div class="section-inner">
+
+    <div class="section-header reveal">
+      <div class="section-label">Campus Facilities</div>
+      <h2 class="section-title">World-Class Infrastructure</h2>
+      <p class="section-subtitle">
+        Our campus is equipped with comprehensive facilities designed to foster learning,
+        research, creativity, and holistic student development.
+      </p>
+    </div>
+
+    <div class="facilities-grid reveal">
+
+      <div class="facility-card large" onclick="openLightbox('📚','Central Library')">
+        <div class="facility-bg" style="background:linear-gradient(135deg,#1a3a6b,#0d2447);">📚</div>
+        <div class="facility-overlay"></div>
+        <div class="facility-content">
+          <div class="facility-tag">Knowledge Hub</div>
+          <div class="facility-name">Central Library</div>
+          <div class="facility-desc">Over 50,000 volumes, digital journals, e-resources, and dedicated reading halls for academic excellence.</div>
+        </div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="facility-card" onclick="openLightbox('🔬','Research Laboratories')">
+        <div class="facility-bg" style="background:linear-gradient(135deg,#1a4a3a,#0d3020);">🔬</div>
+        <div class="facility-overlay"></div>
+        <div class="facility-content">
+          <div class="facility-tag">Innovation</div>
+          <div class="facility-name">Laboratories</div>
+          <div class="facility-desc">State-of-the-art labs for research and hands-on learning.</div>
+        </div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="facility-card" onclick="openLightbox('🏋️','Sports &amp; Recreation')">
+        <div class="facility-bg" style="background:linear-gradient(135deg,#4a1a1a,#301010);">🏋️</div>
+        <div class="facility-overlay"></div>
+        <div class="facility-content">
+          <div class="facility-tag">Sports</div>
+          <div class="facility-name">Playground</div>
+          <div class="facility-desc">Outdoor sports courts and recreational facilities.</div>
+        </div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="facility-card" onclick="openLightbox('🚌','Transport Network')">
+        <div class="facility-bg" style="background:linear-gradient(135deg,#2a1a4a,#150d30);">🚌</div>
+        <div class="facility-overlay"></div>
+        <div class="facility-content">
+          <div class="facility-tag">Transport</div>
+          <div class="facility-name">College Bus</div>
+          <div class="facility-desc">Extensive bus network covering all major routes in the region.</div>
+        </div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="facility-card" onclick="openLightbox('📝','Examination Hall')">
+        <div class="facility-bg" style="background:linear-gradient(135deg,#3a2a0a,#251a05);">📝</div>
+        <div class="facility-overlay"></div>
+        <div class="facility-content">
+          <div class="facility-tag">Assessment</div>
+          <div class="facility-name">Examination</div>
+          <div class="facility-desc">Modern examination halls with seamless evaluation systems.</div>
+        </div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     TESTIMONIALS
+     ============================================================ -->
+<section id="testimonials">
+  <div class="section-inner">
+
+    <div class="section-header reveal">
+      <div class="section-label">Student Reviews</div>
+      <h2 class="section-title">Voices of Our Alumni</h2>
+    </div>
+
+    <div class="rating-display reveal">
+      <div class="rating-num">3.9</div>
+      <div class="rating-info">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+        <div class="rating-count">Based on 101 verified reviews</div>
+      </div>
+    </div>
+
+    <div class="testimonial-slider reveal">
+      <div class="testimonial-track" id="testimonialTrack">
+
+        <div class="testimonial-card">
+          <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="t-text">JACSICOE has been a transformative experience. The faculty is knowledgeable and truly invested in student success. The labs are well-equipped and the campus environment is conducive to focused learning.</p>
+          <div class="t-author">
+            <div class="t-avatar">R</div>
+            <div><div class="t-name">Ramesh Kumar</div><div class="t-role">B.E. Computer Science, 2023</div></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <p class="t-text">The Mechanical Engineering department has excellent workshop facilities. Hands-on training was invaluable for my career. The professors blend theory with real industry exposure effectively.</p>
+          <div class="t-author">
+            <div class="t-avatar">P</div>
+            <div><div class="t-name">Priya Selvaraj</div><div class="t-role">B.E. Mechanical Engineering, 2022</div></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="t-text">The AI &amp; Data Science program is outstanding. We get to work with modern tools and real datasets. The placement cell helped me secure a position at a leading tech firm.</p>
+          <div class="t-author">
+            <div class="t-avatar">A</div>
+            <div><div class="t-name">Anitha Lakshmi</div><div class="t-role">B.E. AI &amp; Data Science, 2024</div></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <p class="t-text">The ECE department's communication labs are top-notch. Faculty members stay updated with recent advancements and regularly invite industry experts for guest lectures.</p>
+          <div class="t-author">
+            <div class="t-avatar">V</div>
+            <div><div class="t-name">Vijay Shankar</div><div class="t-role">B.E. Electronics &amp; Communication, 2023</div></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <p class="t-text">Great campus atmosphere and highly supportive staff. The library has an impressive collection and the bus transport system is very convenient for students commuting from distant areas.</p>
+          <div class="t-author">
+            <div class="t-avatar">S</div>
+            <div><div class="t-name">Subbulakshmi N.</div><div class="t-role">B.E. Computer Science, 2022</div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="slider-controls reveal">
+      <button class="slider-btn" id="prevBtn" onclick="slideTestimonials(-1)">&#8592;</button>
+      <div class="slider-dots" id="sliderDots"></div>
+      <button class="slider-btn" id="nextBtn" onclick="slideTestimonials(1)">&#8594;</button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     LOCATION SECTION
+     ============================================================ -->
+<section id="location">
+  <div class="section-inner">
+    <div class="location-grid">
+
+      <div class="location-info">
+        <div class="section-label reveal">Find Us</div>
+        <h2 class="section-title reveal">Visit Our Campus</h2>
+
+        <div class="contact-info-list">
+
+          <div class="contact-info-item reveal delay-1">
+            <div class="contact-icon">📍</div>
+            <div class="contact-info-text">
+              <div class="label">Address</div>
+              <div class="value">GXQC+94C, Margoschis Nagar,<br>Nazareth, Tamil Nadu 628617</div>
+            </div>
+          </div>
+
+          <div class="contact-info-item reveal delay-2">
+            <div class="contact-icon">📞</div>
+            <div class="contact-info-text">
+              <div class="label">Phone</div>
+              <div class="value"><a href="tel:04639279906">04639 279 906</a></div>
+            </div>
+          </div>
+
+          <div class="contact-info-item reveal delay-3">
+            <div class="contact-icon">🌐</div>
+            <div class="contact-info-text">
+              <div class="label">Website</div>
+              <div class="value">
+                <a href="https://jacsicoe.in" target="_blank" rel="noopener">www.jacsicoe.in</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="https://maps.google.com/?q=Jayaraj+Annapackiam+CSI+College+of+Engineering+Nazareth+Tamil+Nadu"
+           target="_blank" rel="noopener" class="directions-btn">
+          📍 Get Directions on Google Maps
+        </a>
+      </div>
+
+      <div class="map-frame reveal-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.204!2d77.9639!3d8.5694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04eed3e5b1c0a3%3A0x0!2sJayaraj+Annapackiam+CSI+College+of+Engineering!5e0!3m2!1sen!2sin!4v1"
+          width="100%" height="400"
+          style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     GALLERY SECTION
+     ============================================================ -->
+<section id="gallery">
+  <div class="section-inner">
+
+    <div class="section-header reveal">
+      <div class="section-label">Photo Gallery</div>
+      <h2 class="section-title">Life at JACSICOE</h2>
+      <p class="section-subtitle">
+        A glimpse into our vibrant campus life, state-of-the-art facilities, and memorable events.
+      </p>
+    </div>
+
+    <div class="gallery-masonry reveal">
+
+      <div class="gallery-item" onclick="openLightbox('🏛️','Main Campus Building')">
+        <div class="gallery-img-mock tall" style="background:linear-gradient(135deg,#1a3a6b,#0d2447);">🏛️</div>
+        <div class="gallery-overlay"><span class="gallery-label">Main Campus</span></div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('💻','Computer Lab')">
+        <div class="gallery-img-mock medium" style="background:linear-gradient(135deg,#1a2a5a,#0a1a3a);">💻</div>
+        <div class="gallery-overlay"><span class="gallery-label">Computer Labs</span></div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('🎉','Cultural Event')">
+        <div class="gallery-img-mock short" style="background:linear-gradient(135deg,#3a1a1a,#1a0a0a);">🎉</div>
+        <div class="gallery-overlay"><span class="gallery-label">Cultural Events</span></div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('🔬','Research Lab')">
+        <div class="gallery-img-mock medium" style="background:linear-gradient(135deg,#1a3a2a,#0a1f15);">🔬</div>
+        <div class="gallery-overlay"><span class="gallery-label">Research Laboratories</span></div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('🏆','Awards Ceremony')">
+        <div class="gallery-img-mock tall" style="background:linear-gradient(135deg,#3a2a0a,#1f1705);">🏆</div>
+        <div class="gallery-overlay"><span class="gallery-label">Awards &amp; Achievements</span></div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('⚽','Sports Ground')">
+        <div class="gallery-img-mock short" style="background:linear-gradient(135deg,#1a4a2a,#0a2a15);">⚽</div>
+        <div class="gallery-overlay"><span class="gallery-label">Sports Ground</span></div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('📚','Library')">
+        <div class="gallery-img-mock medium" style="background:linear-gradient(135deg,#2a1a4a,#150a2f);">📚</div>
+        <div class="gallery-overlay"><span class="gallery-label">Central Library</span></div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('🎓','Convocation Day')">
+        <div class="gallery-img-mock short" style="background:linear-gradient(135deg,#0a1628,#1e3a5f);">🎓</div>
+        <div class="gallery-overlay"><span class="gallery-label">Convocation Day</span></div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('⚙️','Engineering Workshop')">
+        <div class="gallery-img-mock medium" style="background:linear-gradient(135deg,#2a1a0a,#150d05);">⚙️</div>
+        <div class="gallery-overlay"><span class="gallery-label">Engineering Workshop</span></div>
+        <div class="gallery-zoom">🔍</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     CONTACT SECTION
+     ============================================================ -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+
+      <div class="contact-left">
+        <div class="section-label reveal" style="color:var(--gold-light)">Get In Touch</div>
+        <h2 class="section-title reveal" style="color:#f0ece0">Begin Your Engineering Journey</h2>
+        <p class="reveal">
+          We welcome prospective students, parents, and researchers to connect with us.
+          Our admissions team is ready to guide you through every step of your application process.
+        </p>
+
+        <div class="contact-info-list" style="margin-top:2rem;">
+
+          <div class="contact-info-item reveal delay-1"
+               style="background:rgba(255,255,255,0.05);border-color:rgba(201,168,76,0.2);">
+            <div class="contact-icon">📞</div>
+            <div class="contact-info-text">
+              <div class="label" style="color:var(--gold-light)">Phone</div>
+              <div class="value" style="color:#f0ece0;">04639 279 906</div>
+            </div>
+          </div>
+
+          <div class="contact-info-item reveal delay-2"
+               style="background:rgba(255,255,255,0.05);border-color:rgba(201,168,76,0.2);">
+            <div class="contact-icon">🌐</div>
+            <div class="contact-info-text">
+              <div class="label" style="color:var(--gold-light)">Website</div>
+              <div class="value">
+                <a href="https://jacsicoe.in" target="_blank" rel="noopener"
+                   style="color:var(--gold-light)">www.jacsicoe.in</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info-item reveal delay-3"
+               style="background:rgba(255,255,255,0.05);border-color:rgba(201,168,76,0.2);">
+            <div class="contact-icon">📍</div>
+            <div class="contact-info-text">
+              <div class="label" style="color:var(--gold-light)">Address</div>
+              <div class="value" style="color:#f0ece0;">Margoschis Nagar, Nazareth, Tamil Nadu 628617</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="contact-form reveal-right">
+        <h3 style="font-family:'Playfair Display',serif;font-size:1.4rem;color:#f0ece0;margin-bottom:1.5rem;">
+          Send an Inquiry
+        </h3>
+
+        <div class="form-group">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-input" placeholder="Your full name" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-input" placeholder="your@email.com" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Department of Interest</label>
+          <input type="text" class="form-input" placeholder="e.g., Computer Science Engineering" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-textarea" placeholder="Your inquiry or message…"></textarea>
+        </div>
+
+        <button class="form-submit" onclick="handleFormSubmit(this)">Submit Inquiry &rarr;</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:1.2rem;">
+          <div class="nav-logo-emblem">
+            <svg viewBox="0 0 24 24" fill="none" width="24" height="24">
+              <path d="M12 2L2 7v5c0 5.25 4.35 10.2 9 11.25C16.65 22.2 21 17.25 21 12V7L12 2z"
+                    fill="rgba(201,168,76,0.3)" stroke="#c9a84c" stroke-width="1.5"/>
+              <path d="M9 12l2 2 4-4" stroke="#c9a84c" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="nav-logo-text">
+            <span class="acronym">JACSICOE</span>
+            <span class="tagline-short" style="color:rgba(248,246,241,0.35);">Engineering Excellence</span>
+          </div>
+        </div>
+        <p>Jayaraj Annapackiam CSI College of Engineering — Shaping future engineers with
+           knowledge, discipline, and innovation.</p>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#departments">Departments</a></li>
+          <li><a href="#facilities">Facilities</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Admissions</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Departments</div>
+        <ul class="footer-links">
+          <li><a href="#departments">Computer Science</a></li>
+          <li><a href="#departments">Mechanical Engg.</a></li>
+          <li><a href="#departments">Electronics &amp; Comm.</a></li>
+          <li><a href="#departments">AI &amp; Data Science</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <ul class="footer-links">
+          <li><a href="tel:04639279906">04639 279 906</a></li>
+          <li><a href="https://jacsicoe.in" target="_blank" rel="noopener">jacsicoe.in</a></li>
+          <li><a href="#location">Nazareth, Tamil Nadu</a></li>
+          <li><a href="#location">628617</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-copy">
+        &copy; 2025 Jayaraj Annapackiam CSI College of Engineering. All rights reserved.
+      </div>
+      <div class="footer-accred">
+        <div class="accred-badge">AICTE Approved</div>
+        <div class="accred-badge">Anna University</div>
+        <div class="accred-badge">Affiliated</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ============================================================
+     LIGHTBOX MODAL
+     ============================================================ -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+  <button class="lightbox-close" onclick="closeLightbox()">&#x2715;</button>
+  <div class="lightbox-inner">
+    <div class="lightbox-img" id="lightboxImg"></div>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+</div>
+
+
+<!-- BACK TO TOP -->
+<button class="back-top" id="backTop" aria-label="Back to top">&#8679;</button>
+
+
+<!-- ============================================================
+     JavaScript — loaded at end of body for best performance
+     ============================================================ -->
+<script src="script.js"></script>
+
+</body>
+</html>
